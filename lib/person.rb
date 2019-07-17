@@ -10,4 +10,4 @@ class Person
   
 end
 
-attributes.each { |:name, "Avi"| self.send(("#{:name}="), "Avi")
+attributes.each { |:name, "Avi"| Person.new.send(("#{:name}="), "Avi")
