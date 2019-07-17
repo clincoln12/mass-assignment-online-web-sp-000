@@ -10,4 +10,4 @@ class Person
   
 end
 
-attributes.each {
+attributes.each { |name: , "Avi"
